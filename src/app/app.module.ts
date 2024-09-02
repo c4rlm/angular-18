@@ -28,8 +28,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatFormFieldModule, 
-    MatInputModule, 
+    MatFormFieldModule,
+    MatInputModule,
     MatSelectModule
   ],
   providers: [

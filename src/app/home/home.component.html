@@ -1,1 +1,5 @@
-<p>home works!</p>
+<div class="p-3">
+  <p>Escriba un mensaje!</p>
+  <input type="text" class="form-control" [(ngModel)]="message">
+  <button type="button" class="btn btn-primary mt-2" (click)="sendMessage()">Enviar</button>
+</div>
